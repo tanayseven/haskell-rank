@@ -11,7 +11,6 @@ It also consists of explaination of different functions that are written in Hask
 1.  Hacker Rank in Haskell
 
     .. code-block:: haskell
-       :linenos:
 
        :t interact
        interact :: (String -> String) -> IO ()
@@ -49,3 +48,11 @@ It also consists of explaination of different functions that are written in Hask
        tail :: [a] -> [a]
        Returns a copy of the same list removing the first element
 
+2. Grading Students
+    .. code-block:: haskell
+    
+        :t mod :: Integral a => a -> a -> a
+        -- Perform modulo operation on the two arguments sent to the function
+        
+        :t unlines :: [String] -> String
+        -- Concatenate list of strings into a single string with '\n' in between
