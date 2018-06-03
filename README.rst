@@ -49,6 +49,7 @@ It also consists of explaination of different functions that are written in Hask
        Returns a copy of the same list removing the first element
 
 2.  Grading Students
+
     .. code-block:: haskell
     
         :t mod
@@ -60,6 +61,7 @@ It also consists of explaination of different functions that are written in Hask
         -- Concatenate list of strings into a single string with '\n' in between
 
 3.  Grading Students
+
     .. code-block:: haskell
     
         :t take
@@ -75,6 +77,7 @@ It also consists of explaination of different functions that are written in Hask
         -- Keeps only those values in the list (second argument) which satifies the predicate function (first argument) and filters out the other elements and returns the remaining values as a new list
 
 4.  Code Warrior
+
     .. code-block:: haskell
 
         :t undefined
