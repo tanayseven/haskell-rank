@@ -45,3 +45,7 @@ It also consists of explaination of different functions that are written in Hask
        show :: Show a => a -> String
        -- Accepts arguments of one type and convert that type to string
 
+       :t tail
+       tail :: [a] -> [a]
+       Returns a copy of the same list removing the first element
+

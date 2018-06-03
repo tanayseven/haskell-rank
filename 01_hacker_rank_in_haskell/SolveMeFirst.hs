@@ -1,5 +1,6 @@
 module SolveMeFirst where
 
+-- https://www.hackerrank.com/challenges/fp-solve-me-first/problem
 -- Solve Me First FP
 -- This is an introductory challenge. The purpose of this challenge is to give you a working I/O template in your preferred language. It includes scanning  integers from STDIN, calling a function, returning a value, and printing it to STDOUT.
 
@@ -22,5 +23,5 @@ module SolveMeFirst where
 
 stringSum string = show $ sum $ map read $ words string
 
--- main = interact stringSum 
+-- main = interact stringSum -- Uncomment this line while pasting it on online judge
 
