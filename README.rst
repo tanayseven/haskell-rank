@@ -48,11 +48,29 @@ It also consists of explaination of different functions that are written in Hask
        tail :: [a] -> [a]
        Returns a copy of the same list removing the first element
 
-2. Grading Students
+2.  Grading Students
     .. code-block:: haskell
     
-        :t mod :: Integral a => a -> a -> a
+        :t mod
+        mod :: Integral a => a -> a -> a
         -- Perform modulo operation on the two arguments sent to the function
         
-        :t unlines :: [String] -> String
+        :t unlines
+        unlines :: [String] -> String
         -- Concatenate list of strings into a single string with '\n' in between
+
+3.  Grading Students
+    .. code-block:: haskell
+    
+        :t take
+        take :: Int -> [a] -> [a]
+        -- Take the first n (first argument) elements from the list (second argument) and returns the new list
+        
+        :t drop
+        drop :: Int -> [a] -> [a]
+        -- (Opposite of take) Drop the first n (first argument) elements from the list (second argument) and returns the new list
+
+        :t filter
+        filter :: (a -> Bool) -> [a] -> [a]
+        -- Keeps only those values in the list (second argument) which satifies the predicate function (first argument) and filters out the other elements and returns the remaining values as a new list
+
