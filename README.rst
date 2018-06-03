@@ -74,3 +74,30 @@ It also consists of explaination of different functions that are written in Hask
         filter :: (a -> Bool) -> [a] -> [a]
         -- Keeps only those values in the list (second argument) which satifies the predicate function (first argument) and filters out the other elements and returns the remaining values as a new list
 
+4.  Code Warrior
+    .. code-block:: haskell
+
+        :t undefined
+        undefined :: a
+        -- Used as a placeholder for something unimplemented and still reuired to be compiled eg. return from a function
+
+        :t (!!)
+        (!!) :: [a] -> Int -> a
+        -- Returns the nth (second argument) of the list (first argument) that is passed to it
+
+        :t (/)
+        (/) :: Fractional a => a -> a -> a
+        -- Perform division on fractional types and return the fractional result of the division
+
+        :t div
+        div :: Integral a => a -> a -> a
+        -- Perform division on integral types and return the integration quotient after performing the division
+
+        :t even
+        even :: Integral a => a -> Bool
+        -- Tells if the argument passed to the function is even or not
+
+        :t odd
+        odd :: Integral a => a -> Bool
+        -- Tells if the argument passed to the function is odd or not
+
