@@ -1,3 +1,5 @@
 .stack-work/
-haskell-rank.cabal
+out/
 *~
+haskell-rank.iml
+.idea/

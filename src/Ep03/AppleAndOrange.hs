@@ -1,4 +1,4 @@
-module AppleAndOrange where
+module Ep03.AppleAndOrange (solve, computeResult) where
 
 -- https://www.hackerrank.com/challenges/apple-and-orange/problem
 
@@ -11,13 +11,13 @@ module AppleAndOrange where
 
 -- Complete the function countApplesAndOranges,
 -- where,
--- 's' Starting point of Sam's house location. 
--- 't' Ending location of Sam's house location. 
--- 'a' Location of the Apple tree. 
--- 'b' Location of the Orange tree. 
--- 'm' Number of apples that fell from the tree. 
--- 'apples' Distance at which each apple falls from the tree. 
--- 'n' Number of oranges that fell from the tree. 
+-- 's' Starting point of Sam's house location.
+-- 't' Ending location of Sam's house location.
+-- 'a' Location of the Apple tree.
+-- 'b' Location of the Orange tree.
+-- 'm' Number of apples that fell from the tree.
+-- 'apples' Distance at which each apple falls from the tree.
+-- 'n' Number of oranges that fell from the tree.
 -- 'oranges' Distance at which each orange falls from the tree.
 
 -- Given the value of 'd' for 'm' apples and 'n' oranges, can you determine how many apples and oranges will fall on Sam's house (i.e., in the inclusive range [s,t])? Print the number of apples that fall on Sam's house as your first line of output, then print the number of oranges that fall on Sam's house as your second line of output.
@@ -59,4 +59,4 @@ computeResult string = unlines $ map show $ solve $ map read $ words string
 
 -- main = interact computeResult -- Uncomment this line while pasting it on online judge
 
- 
+
