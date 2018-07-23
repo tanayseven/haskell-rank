@@ -1,3 +1,7 @@
+.. image:: https://travis-ci.org/tanayseven/haskell-rank.svg?branch=master
+    :target: https://travis-ci.org/tanayseven/haskell-rank
+    :alt: tests
+
 Haskell Rank
 ============
 
